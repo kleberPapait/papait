@@ -10,3 +10,55 @@ html, body{
 
    padding:0;
 }
+
+.bgc1, .bgc2, .bgc3{
+	   position: relative;
+	   opacity: .65;
+	   background:{
+	   	        position: center;
+	   	        repeat: no-repeat;
+	   	        attachment: fixed;
+	   	        size: cover;
+	   	  	   };
+	   @media screen and (max-width:1200px){
+	   	  	    background-attachment: scroll;
+	   }       
+	  	   
+}
+.bgc1{
+	   min-height:600px;
+	   background-image: url("../../img2/fjord.jpg")
+
+}
+.bgc2{
+	   min-height: 500px;
+	   background-image: url("../../img2/benttree.jpg")
+
+}
+.caption{
+	   position: absolute;
+	   top:50%;
+	   left:0;
+	   width: 100%;
+	   color: rgba(#000, 1);
+	   text-align: center;  
+}
+.border{
+	   color: rgba(#fff, 1);
+	   padding: 18px 25px;
+	   background-color: rgba(#000, .85);
+	   letter-spacing:10px;
+	   font:2em/1 "Lato";
+
+
+}
+article{
+	   background-color:rgba(thistle, 1);
+       color: #f7f7f7;
+       padding: 20px;
+       letter-spacing: 3px;
+       font: 20px/22px "lato", sans-serif;
+
+
+}
+
