@@ -15,20 +15,25 @@ html, body {
   background-size: cover;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-device-width: 1200px) {
   .bgc1, .bgc2, .bgc3 {
     background-attachment: scroll;
   }
 }
 
 .bgc1 {
-  min-height: 600px;
+  min-height: 100%;
   background-image: url("../../img2/fjord.jpg");
 }
 
 .bgc2 {
-  min-height: 500px;
+  min-height: 400px;
   background-image: url("../../img2/benttree.jpg");
+}
+
+.bgc3 {
+  min-height: 400px;
+  background-image: url("../../img2/forestflare.jpg");
 }
 
 .caption {
@@ -49,9 +54,13 @@ html, body {
 }
 
 article {
+
   background-color: thistle;
   color: #f7f7f7;
   padding: 20px;
   letter-spacing: 3px;
   font: 20px/22px "lato", sans-serif;
+}
+article:not(:first-child){
+    position: relative;
 }
