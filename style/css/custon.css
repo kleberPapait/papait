@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  font: 16px/1 "lato";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.bgc1, .bgc2, .bgc3 {
+  position: relative;
+  opacity: .65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media screen and (max-device-width: 1200px) {
+  .bgc1, .bgc2, .bgc3 {
+    background-attachment: scroll;
+  }
+}
+
+.bgc1 {
+  min-height: 100%;
+  background-image: url("../../img2/fjord.jpg");
+}
+
+.bgc2 {
+  min-height: 400px;
+  background-image: url("../../img2/benttree.jpg");
+}
+
+.bgc3 {
+  min-height: 400px;
+  background-image: url("../../img2/forestflare.jpg");
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.border {
+  color: white;
+  padding: 18px 25px;
+  background-color: rgba(0, 0, 0, 0.85);
+  letter-spacing: 10px;
+  font: 2em/1 "Lato";
+}
+
+article {
+
+  background-color: thistle;
+  color: #f7f7f7;
+  padding: 20px;
+  letter-spacing: 3px;
+  font: 20px/22px "lato", sans-serif;
+}
+article:not(:first-child){
+    position: relative;
+}
