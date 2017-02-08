@@ -68,7 +68,11 @@ article:not(:last-child){
     columns: 3 150px;
     column-gap: normal;
     column-rule: 4px double coral;
-    background-image: linear-gradient(to right, tomato, aquamarine)
+    background-image: linear-gradient(to right, indianred, aquamarine);
+    background-blend-mode: luminosity;
+    padding: 1%;
+    border: 40px solid teal;
+    border-image: url('../../img2/bordas1.jpg') 30/ 30px / 30px   round;  
 }
 hr{
 	  column-span: all;
