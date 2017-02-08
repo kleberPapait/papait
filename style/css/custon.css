@@ -54,7 +54,7 @@ html, body {
   font: 2em/1 "Lato";
 }
 
-article {
+article{
 
   background-color: thistle;
   color: #f7f7f7;
@@ -62,6 +62,10 @@ article {
   letter-spacing: 3px;
   font: 20px/22px "lato", sans-serif;
 }
-article:not(:first-child){
+article:not(:last-child){
     position: relative;
+    margin: 0;
+    columns: 3 150px;
+    column-gap: normal;
+    column-rule: 4px double coral;
 }
