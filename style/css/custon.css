@@ -68,4 +68,8 @@ article:not(:last-child){
     columns: 3 150px;
     column-gap: normal;
     column-rule: 4px double coral;
+    background-image: linear-gradient(to right, tomato, aquamarine)
+}
+hr{
+	  column-span: all;
 }
