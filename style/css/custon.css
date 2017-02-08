@@ -17,6 +17,7 @@ html, body {
 
 @media screen and (max-device-width: 1200px) {
   .bgc1, .bgc2, .bgc3 {
+  	
     background-attachment: scroll;
   }
 }
