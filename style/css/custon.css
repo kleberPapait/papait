@@ -4,15 +4,21 @@ html, body {
   font-weight: 400;
   margin: 0;
   padding: 0;
+  
 }
+
 
 .bgc1, .bgc2, .bgc3 {
   position: relative;
+  width: 100%;
   opacity: .65;
+  background-color: thistle;
+  background-color: ;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  transform: skewX(-5deg);
 }
 
 @media screen and (max-device-width: 1200px) {
