@@ -1,9 +1,15 @@
+@keyframes bgc{
+         from { background-image: url('../../img2/275087_Papel-de-Parede-Zebras-na-Savana_1920x1080.jpg'); transform: translateZ(-400px); transition: 1s; }
+         to{ background-image: url( '../../img2/fjord.jpg'); transition: .6s  }
+}
+
 html, body {
   height: 100%;
   font: 16px/1 "lato";
   font-weight: 400;
   margin: 0;
   padding: 0;
+  perspective: 500px;
   
 }
 
@@ -30,7 +36,7 @@ html, body {
 
 .bgc1 {
   min-height: 100%;
-  background-image: url("../../img2/fjord.jpg");
+  animation: bgc 2s linear .1s forwards;
 }
 
 .bgc2 {
